@@ -25,7 +25,7 @@ function convertToRoman(arabicNumeral) {
     for(let i = 0; i < numerals.length; i++) {
       if(arabicNumeral >= numerals[i]["arabic"])
       {
-        // Call the function will get called again if there are still numerals to convert
+        // The function will get called again if there are still numerals to convert
         arabicNumeral -= numerals[i]["arabic"];
 
         if(arabicNumeral > 0) {
