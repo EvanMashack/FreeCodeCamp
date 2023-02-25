@@ -47,7 +47,7 @@ def arithmetic_arranger(problems = [], solve = False):
     #Reformating our results to be vertical. 
     resultsLine1 += operand1.rjust(resultLength)
     resultsLine2 += operator + operand2.rjust(resultLength - 1)
-    resultsLine3 += createLine(resultLength, "-")
+    resultsLine3 += create_line(resultLength, "-")
       
     #[Requirement 3]: Only whole number operands
     try:
