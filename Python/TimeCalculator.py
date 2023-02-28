@@ -96,4 +96,5 @@ def add_time(start, duration, day = ""):
     
   return rHours + ":" + rMinutes + meridian + rDays
 
-print(add_time("11:59 AM", "192:01", "Friday"))
+# Test Case
+#print(add_time("11:59 AM", "192:01", "Friday"))
