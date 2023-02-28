@@ -1,3 +1,5 @@
+// Assignment: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter
+// Test Case at the bottom of RomanNumeralConverter.js
 function convertToRoman(arabicNumeral) {
  // Both sets of numerals stored as objects in an array
  const numerals = [
@@ -44,4 +46,5 @@ function convertToRoman(arabicNumeral) {
   return romanNumeral.join("");
 }
 
-console.log(convertToRoman(1603));
+// Test Case
+//console.log(convertToRoman(1603));
