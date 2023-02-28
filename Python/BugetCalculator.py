@@ -1,5 +1,9 @@
+# Assignment: https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/budget-app
+# Test Case at the bottom of BugetCalculator.py
+
 import math 
 
+# Class to build a buget list
 class Category:   
   def __init__(self, category):
     self.category = category
