@@ -1,3 +1,6 @@
+# Assignment: https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/time-calculator
+# Test Case is at bottom of TimeCalculator.py
+
 # Function to return the time, day of the week and number of days passed after start time.
 def add_time(start, duration, day = ""):
   weekdays = ["", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
