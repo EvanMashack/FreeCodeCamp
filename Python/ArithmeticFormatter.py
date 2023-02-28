@@ -76,4 +76,4 @@ def arithmetic_arranger(problems = [], solve = False):
   return results.rstrip() 
  
 #Test case
-print(arithmetic_arranger(['3 + 855', '988 + 40'], True))
+#print(arithmetic_arranger(['3 + 855', '988 + 40'], True))
