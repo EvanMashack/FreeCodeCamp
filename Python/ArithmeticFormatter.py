@@ -1,3 +1,6 @@
+# Assignment: https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/arithmetic-formatter
+# Test Case is at bottom of ArithmeticFormatter.py
+
 #function to return a line of a set number of the same character
 def create_line(number, character):
   line = ""
