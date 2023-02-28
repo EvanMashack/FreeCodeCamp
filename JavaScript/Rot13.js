@@ -1,3 +1,6 @@
+// Assignment: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher
+// Test Case at the bottom of Rot13.js
+
 function rot13(encodedStr) {
   // Uppercase letters are required so this cast is an error precaution
   encodedStr = encodedStr.toUpperCase().split("");
@@ -27,5 +30,6 @@ function rot13(encodedStr) {
   return String.fromCharCode(...decodedStr);
 }
 
-console.log(rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.")); 
+// Test Case
+//console.log(rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.")); 
   
