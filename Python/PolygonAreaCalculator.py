@@ -1,5 +1,6 @@
 # Assignment: https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/polygon-area-calculator
-# Test Case at bottom of PolygonAreaCalculator.py
+# Test Case is at the bottom of PolygonAreaCalculator.py
+
 class Rectangle:
   def __init__(self, width, height):
     self.width = width
