@@ -28,11 +28,7 @@ class Hat:
     return hand
     
 # Returns the probability of drawing your prediction
-def experiment(hat, expected_balls, num_balls_drawn, num_experiments): 
-  prediction = expected_balls
-  draws = num_balls_drawn
-  attempts = num_experiments
-  
+def experiment(hat, prediction, draws, attempts):  
   m = 0
   n = attempts
   # Attempting specified number of times
